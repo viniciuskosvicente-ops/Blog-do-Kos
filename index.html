@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDrive | Carros e Motos Usados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar container">
+            <a href="#" class="logo"><i class="fa-solid fa-car-side"></i> Auto<span>Drive</span></a>
+            <nav>
+                <a href="#catalogo" class="nav-link">Catálogo</a>
+                <a href="#sobre" class="nav-link">Sobre nós</a>
+                <a href="#contato" class="btn-contato">Fale Conosco</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content container">
+            <h2>Encontre seu próximo veículo popular</h2>
+            <p>Carros e motos seminovos com as melhores condições e financiamento facilitado.</p>
+            
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="searchInput" placeholder="Digite a marca ou modelo do veículo...">
+            </div>
+        </div>
+    </section>
+
+    <main class="container" id="catalogo">
+        <div class="filter-headline">
+            <h3>Nossa Vitrine</h3>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="carro">Carros</button>
+                <button class="filter-btn" data-filter="moto">Motos</button>
+            </div>
+        </div>
+
+        <div class="vehicles-grid" id="vehiclesGrid">
+            </div>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <p>&copy; 2026 AutoDrive Motores. Desenvolvido para portfólio no GitHub.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
